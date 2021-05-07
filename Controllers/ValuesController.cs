@@ -9,6 +9,7 @@ namespace _420HW4.Controllers
 {
     public class ValuesController : ApiController
     {
+        NodeOrders500Entities myOrders = new NodeOrders500Entities();
         // GET api/values
         public IEnumerable<string> Get()
         {
